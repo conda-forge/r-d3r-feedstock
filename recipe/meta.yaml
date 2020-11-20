@@ -1,4 +1,4 @@
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/d3r_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/d3r/d3r_{{ version }}.tar.gz
-  sha256: 9eb04fad4df5db80103b0af3204ebc8cd50adcc670f9b2a76b1d85ecd1c4a16d
+  sha256: b3dc7f046bdf289892cd04746d636c5d0f9baf19f659aa1cde1d76e7f716884d
 
 build:
   merge_build_host: true  # [win]
