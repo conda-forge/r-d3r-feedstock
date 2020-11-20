@@ -27,12 +27,14 @@ requirements:
     - r-base
     - r-dplyr
     - r-htmltools
-    - r-tidyr >=0.7.0
+    - r-rlang
+    - r-tidyr >=0.8.3
   run:
     - r-base
     - r-dplyr
     - r-htmltools
-    - r-tidyr >=0.7.0
+    - r-rlang
+    - r-tidyr >=0.8.3
 
 test:
   commands:
@@ -41,7 +43,7 @@ test:
 
 about:
   home: https://github.com/timelyportfolio/d3r
-  license: BSD_3_clause
+  license: BSD-3-Clause
   summary: Provides a suite of functions to help ease the use of 'd3.js' in R. These helpers include 'htmltools::htmlDependency' functions, hierarchy builders, and conversion tools for 'partykit', 'igraph,' 'table', and 'data.frame' R objects into the 'JSON' that 'd3.js' expects.
   license_family: BSD
   license_file:
