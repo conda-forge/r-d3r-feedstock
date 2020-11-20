@@ -3,7 +3,7 @@ About r-d3r
 
 Home: https://github.com/timelyportfolio/d3r
 
-Package license: BSD_3_clause
+Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-d3r-feedstock/blob/master/LICENSE.txt)
 
