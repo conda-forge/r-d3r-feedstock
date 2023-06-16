@@ -1,11 +1,11 @@
-About r-d3r
-===========
+About r-d3r-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-d3r-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/timelyportfolio/d3r
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-d3r-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides a suite of functions to help ease the use of 'd3.js' in R. These helpers include 'htmltools::htmlDependency' functions, hierarchy builders, and conversion tools for 'partykit', 'igraph,' 'table', and 'data.frame' R objects into the 'JSON' that 'd3.js' expects.
 
