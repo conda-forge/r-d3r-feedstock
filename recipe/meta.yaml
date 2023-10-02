@@ -1,4 +1,4 @@
-{% set version = "1.0.1" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/d3r_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/d3r/d3r_{{ version }}.tar.gz
-  sha256: c3f59b6551f7c19fbf6f81421d28d74f565b82cc23178dfc56dad0434017c91e
+  sha256: c413b218fb34cd2a96b67d72e27a846cda606d831d99e14de6da5f39fc2895b5
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
